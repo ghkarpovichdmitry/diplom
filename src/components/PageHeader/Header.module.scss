@@ -1,0 +1,44 @@
+@import "../../styles/colors.scss";
+@import "../../styles/variables.scss";
+
+.header {
+    background: $decor-bg-color;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logoBox {
+    display: inline-block;
+    max-height: 100%;
+}
+
+.logo {
+    height: 60px;
+}
+
+.nav {
+
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.listItem {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.link {
+    padding: 15px;
+    color: $base-color;
+    text-decoration: none;
+}
